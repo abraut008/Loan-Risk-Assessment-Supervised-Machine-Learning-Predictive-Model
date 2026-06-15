@@ -1,1 +1,5 @@
 # Loan-Risk-Assessment-Supervised-Machine-Learning-Predictive-Model
+Created Loan Risk Assessment Regression predictive model to determine what will be Risk Score  on the basis of predictors. Achieved 97 % accuracy using the XGBoost Regression Algorithm.
+
+## The flow of the case study is as below:
+a) Defined the problem statement b) Read the data in python c) Identified the Target variable d) Observed at the distribution of Target variable e) Basic Data exploration f) Rejected useless columns g) Visual Exploratory Data Analysis for data distribution (Histogram and Barcharts) h) Feature Selection based on data distribution i) Outlier treatment j) Imbalance Treatment k) Missing Values treatment is Needed l) Visual correlation analysis m) Statistical correlation analysis (Feature Selection) n) Converting data to numeric for ML by get_dummies and replace function. (As the columns were numeric, there was need to convert the variables into numeric datatype) o) Sampling and K-fold cross validation p) Tried multiple classification algorithms q) Selected the best Model r) Deployed the best model in production
